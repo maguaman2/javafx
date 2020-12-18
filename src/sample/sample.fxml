@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Button?>
+<GridPane alignment="center" gridLinesVisible="true" hgap="10" prefHeight="155.0" prefWidth="191.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+    <padding>
+        <Insets bottom="5" left="5" right="5" top="5" />
+    </padding>
+    <Text text="Login" GridPane.columnIndex="0"  GridPane.rowIndex="1" />
+    <Label text="username" GridPane.columnIndex="0"  GridPane.rowIndex="0" />
+    <Button text="Activa" GridPane.columnIndex="0"  GridPane.rowIndex="0" />
+
+
+</GridPane>
